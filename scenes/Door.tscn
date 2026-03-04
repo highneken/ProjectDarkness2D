@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://door"]
+
+[ext_resource type="Script" path="res://scripts/door.gd" id="1_door"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_door"]
+size = Vector2(26, 70)
+
+[node name="Door" type="Area2D"]
+script = ExtResource("1_door")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_door")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -13.0
+offset_top = -35.0
+offset_right = 13.0
+offset_bottom = 35.0
+color = Color(0.35, 0.2, 0.1, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = -40.0
+offset_top = -58.0
+offset_right = 80.0
+offset_bottom = -32.0
+horizontal_alignment = 1
+text = "Door"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
