@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://main"]
+[gd_scene load_steps=14 format=3 uid="uid://main"]
 
 [ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="1_pl"]
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="2_gm"]
@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" path="res://scenes/Checkpoint.tscn" id="5_cp"]
 [ext_resource type="PackedScene" path="res://scenes/HUD.tscn" id="6_hud"]
 [ext_resource type="PackedScene" path="res://scenes/Door.tscn" id="7_door"]
+[ext_resource type="PackedScene" path="res://scenes/CorpseProp.tscn" id="8_corpse"]
+[ext_resource type="PackedScene" path="res://scenes/PillarProp.tscn" id="9_pillar"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
 size = Vector2(1400, 80)
@@ -28,6 +30,13 @@ offset_top = -10.0
 offset_right = 1290.0
 offset_bottom = 730.0
 color = Color(0.03, 0.03, 0.05, 1)
+
+[node name="FogBack" type="ColorRect" parent="."]
+offset_left = -10.0
+offset_top = 260.0
+offset_right = 1290.0
+offset_bottom = 720.0
+color = Color(0.05, 0.02, 0.03, 0.18)
 
 [node name="Vignette" type="ColorRect" parent="."]
 z_index = 20
@@ -86,6 +95,24 @@ offset_top = -15.0
 offset_right = 110.0
 offset_bottom = 15.0
 color = Color(0.19, 0.16, 0.14, 1)
+
+[node name="CorpseA" parent="." instance=ExtResource("8_corpse")]
+position = Vector2(350, 640)
+rotation = -0.08
+
+[node name="CorpseB" parent="." instance=ExtResource("8_corpse")]
+position = Vector2(560, 640)
+rotation = 0.11
+
+[node name="CorpseC" parent="." instance=ExtResource("8_corpse")]
+position = Vector2(1020, 640)
+rotation = -0.16
+
+[node name="PillarLeft" parent="." instance=ExtResource("9_pillar")]
+position = Vector2(300, 650)
+
+[node name="PillarRight" parent="." instance=ExtResource("9_pillar")]
+position = Vector2(1110, 650)
 
 [node name="KillZone" type="Area2D" parent="."]
 position = Vector2(640, 900)
