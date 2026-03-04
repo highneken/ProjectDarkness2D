@@ -1,15 +1,22 @@
-[gd_scene load_steps=7 format=3 uid="uid://main"]
+[gd_scene load_steps=10 format=3 uid="uid://main"]
 
 [ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="1_pl"]
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="2_gm"]
 [ext_resource type="Script" path="res://scripts/kill_zone.gd" id="3_kz"]
 [ext_resource type="PackedScene" path="res://scenes/EnemyEcho.tscn" id="4_en"]
+[ext_resource type="PackedScene" path="res://scenes/Checkpoint.tscn" id="5_cp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
 size = Vector2(1400, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kill"]
 size = Vector2(1600, 200)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plat1"]
+size = Vector2(260, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plat2"]
+size = Vector2(220, 30)
 
 [node name="Main" type="Node2D"]
 
@@ -43,6 +50,32 @@ offset_right = 700.0
 offset_bottom = 40.0
 color = Color(0.15, 0.12, 0.1, 1)
 
+[node name="Platform1" type="StaticBody2D" parent="."]
+position = Vector2(520, 560)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform1"]
+shape = SubResource("RectangleShape2D_plat1")
+
+[node name="ColorRect" type="ColorRect" parent="Platform1"]
+offset_left = -130.0
+offset_top = -15.0
+offset_right = 130.0
+offset_bottom = 15.0
+color = Color(0.19, 0.16, 0.14, 1)
+
+[node name="Platform2" type="StaticBody2D" parent="."]
+position = Vector2(910, 470)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2"]
+shape = SubResource("RectangleShape2D_plat2")
+
+[node name="ColorRect" type="ColorRect" parent="Platform2"]
+offset_left = -110.0
+offset_top = -15.0
+offset_right = 110.0
+offset_bottom = 15.0
+color = Color(0.19, 0.16, 0.14, 1)
+
 [node name="KillZone" type="Area2D" parent="."]
 position = Vector2(640, 900)
 script = ExtResource("3_kz")
@@ -58,7 +91,11 @@ position_smoothing_enabled = true
 position_smoothing_speed = 8.0
 
 [node name="EnemyEcho" parent="." instance=ExtResource("4_en")]
-position = Vector2(780, 620)
+position = Vector2(980, 620)
+
+[node name="Checkpoint" parent="." instance=ExtResource("5_cp")]
+position = Vector2(910, 420)
+groups = ["checkpoints"]
 
 [node name="GameManager" type="Node" parent="."]
 script = ExtResource("2_gm")
