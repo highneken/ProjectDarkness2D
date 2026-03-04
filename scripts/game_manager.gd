@@ -1,5 +1,7 @@
 extends Node
 
+signal death_count_changed(count: int)
+
 var death_count: int = 0
 
 @onready var main := get_parent()
@@ -26,4 +28,7 @@ func _on_player_died() -> void:
 	player.velocity = Vector2.ZERO
 	if "hp" in player and "max_hp" in player:
 		player.hp = player.max_hp
+		if player.has_signal("hp_changed"):
+			player.emit_signal("hp_changed", player.hp, player.max_hp)
+	emit_signal("death_count_changed", death_count)
 	print("Deaths:", death_count)

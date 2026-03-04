@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 signal died
+signal hp_changed(current: int, max: int)
 
 @export var speed: float = 220.0
 @export var jump_velocity: float = -420.0
@@ -26,6 +27,7 @@ var invuln := false
 func _ready() -> void:
 	hp = max_hp
 	attack_shape.disabled = true
+	emit_signal("hp_changed", hp, max_hp)
 
 func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("jump"):
@@ -78,6 +80,7 @@ func take_damage(amount: int) -> void:
 	if invuln:
 		return
 	hp -= amount
+	emit_signal("hp_changed", hp, max_hp)
 	invuln = true
 	body_visual.color = Color(1, 0.45, 0.45, 1)
 	await get_tree().create_timer(invuln_time).timeout

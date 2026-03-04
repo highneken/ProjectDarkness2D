@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://main"]
+[gd_scene load_steps=11 format=3 uid="uid://main"]
 
 [ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="1_pl"]
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="2_gm"]
 [ext_resource type="Script" path="res://scripts/kill_zone.gd" id="3_kz"]
 [ext_resource type="PackedScene" path="res://scenes/EnemyEcho.tscn" id="4_en"]
 [ext_resource type="PackedScene" path="res://scenes/Checkpoint.tscn" id="5_cp"]
+[ext_resource type="PackedScene" path="res://scenes/HUD.tscn" id="6_hud"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
 size = Vector2(1400, 80)
@@ -25,7 +26,16 @@ offset_left = -10.0
 offset_top = -10.0
 offset_right = 1290.0
 offset_bottom = 730.0
-color = Color(0.05, 0.04, 0.06, 1)
+color = Color(0.03, 0.03, 0.05, 1)
+
+[node name="Vignette" type="ColorRect" parent="."]
+z_index = 20
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 1290.0
+offset_bottom = 730.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.12)
 
 [node name="SpawnPoint" type="Marker2D" parent="."]
 position = Vector2(200, 500)
@@ -96,6 +106,8 @@ position = Vector2(980, 620)
 [node name="Checkpoint" parent="." instance=ExtResource("5_cp")]
 position = Vector2(910, 420)
 groups = ["checkpoints"]
+
+[node name="HUD" parent="." instance=ExtResource("6_hud")]
 
 [node name="GameManager" type="Node" parent="."]
 script = ExtResource("2_gm")
