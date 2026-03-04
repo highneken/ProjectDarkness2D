@@ -6,6 +6,7 @@
 script = ExtResource("1_hud")
 
 [node name="Panel" type="Panel" parent="."]
+modulate = Color(0.1, 0.1, 0.13, 0.78)
 offset_left = 16.0
 offset_top = 16.0
 offset_right = 320.0

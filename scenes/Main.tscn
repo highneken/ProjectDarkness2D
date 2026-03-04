@@ -34,7 +34,7 @@ offset_left = -10.0
 offset_top = -10.0
 offset_right = 1290.0
 offset_bottom = 730.0
-color = Color(0.03, 0.03, 0.05, 1)
+color = Color(0.08, 0.06, 0.1, 1)
 
 [node name="BgSpriteFar" type="Sprite2D" parent="."]
 position = Vector2(539, 112)
@@ -166,6 +166,7 @@ shape = SubResource("RectangleShape2D_kill")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 enabled = true
+zoom = Vector2(0.75, 0.75)
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
 
