@@ -12,6 +12,9 @@ signal hp_changed(current: int, max: int)
 @export var jump_buffer_time: float = 0.12
 @export var short_jump_cut: float = 0.5
 @export var invuln_time: float = 0.6
+@export var dash_speed: float = 520.0
+@export var dash_time: float = 0.16
+@export var dash_cooldown: float = 0.7
 
 var hp: int
 var facing: int = 1
@@ -19,6 +22,9 @@ var attack_active := false
 var coyote_timer := 0.0
 var jump_buffer_timer := 0.0
 var invuln := false
+var is_dashing := false
+var dash_time_left := 0.0
+var dash_cooldown_left := 0.0
 
 @onready var attack_area: Area2D = $AttackArea
 @onready var attack_shape: CollisionShape2D = $AttackArea/CollisionShape2D
@@ -30,34 +36,47 @@ func _ready() -> void:
 	emit_signal("hp_changed", hp, max_hp)
 
 func _physics_process(delta: float) -> void:
-	if Input.is_action_just_pressed("jump"):
-		jump_buffer_timer = jump_buffer_time
+	dash_cooldown_left = max(dash_cooldown_left - delta, 0.0)
+
+	if Input.is_action_just_pressed("dash") and dash_cooldown_left <= 0.0 and not is_dashing:
+		is_dashing = true
+		dash_time_left = dash_time
+		dash_cooldown_left = dash_cooldown
+
+	if is_dashing:
+		dash_time_left -= delta
+		velocity = Vector2(facing * dash_speed, 0)
+		if dash_time_left <= 0.0:
+			is_dashing = false
 	else:
-		jump_buffer_timer = max(jump_buffer_timer - delta, 0.0)
+		if Input.is_action_just_pressed("jump"):
+			jump_buffer_timer = jump_buffer_time
+		else:
+			jump_buffer_timer = max(jump_buffer_timer - delta, 0.0)
 
-	if is_on_floor():
-		coyote_timer = coyote_time
-	else:
-		coyote_timer = max(coyote_timer - delta, 0.0)
-		velocity.y += ProjectSettings.get_setting("physics/2d/default_gravity") * gravity_scale * delta
+		if is_on_floor():
+			coyote_timer = coyote_time
+		else:
+			coyote_timer = max(coyote_timer - delta, 0.0)
+			velocity.y += ProjectSettings.get_setting("physics/2d/default_gravity") * gravity_scale * delta
 
-	if jump_buffer_timer > 0.0 and coyote_timer > 0.0:
-		velocity.y = jump_velocity
-		jump_buffer_timer = 0.0
-		coyote_timer = 0.0
+		if jump_buffer_timer > 0.0 and coyote_timer > 0.0:
+			velocity.y = jump_velocity
+			jump_buffer_timer = 0.0
+			coyote_timer = 0.0
 
-	if Input.is_action_just_released("jump") and velocity.y < 0.0:
-		velocity.y *= short_jump_cut
+		if Input.is_action_just_released("jump") and velocity.y < 0.0:
+			velocity.y *= short_jump_cut
 
-	var direction := Input.get_axis("move_left", "move_right")
-	if direction != 0:
-		velocity.x = direction * speed
-		facing = 1 if direction > 0 else -1
-	else:
-		velocity.x = move_toward(velocity.x, 0, speed)
+		var direction := Input.get_axis("move_left", "move_right")
+		if direction != 0:
+			velocity.x = direction * speed
+			facing = 1 if direction > 0 else -1
+		else:
+			velocity.x = move_toward(velocity.x, 0, speed)
 
-	if Input.is_action_just_pressed("attack") and not attack_active:
-		start_attack()
+		if Input.is_action_just_pressed("attack") and not attack_active:
+			start_attack()
 
 	attack_area.position.x = 26 * facing
 	move_and_slide()
