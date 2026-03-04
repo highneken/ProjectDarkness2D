@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/background.png" id="11_bg"]
 [ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/columns.png" id="12_cols"]
 [ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/tileset.png" id="13_tiles"]
+[ext_resource type="Script" path="res://scripts/main_tilemap.gd" id="14_mt"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
 size = Vector2(1400, 80)
@@ -82,7 +83,11 @@ offset_right = 280.0
 offset_bottom = 650.0
 color = Color(0.2, 0.08, 0.08, 1)
 
+[node name="TileMapMain" type="TileMap" parent="."]
+script = ExtResource("14_mt")
+
 [node name="GroundLane" type="ColorRect" parent="."]
+visible = false
 offset_left = -20.0
 offset_top = 620.0
 offset_right = 1300.0
@@ -96,6 +101,7 @@ position = Vector2(640, 680)
 shape = SubResource("RectangleShape2D_floor")
 
 [node name="FloorVisual" type="Sprite2D" parent="Floor"]
+visible = false
 position = Vector2(0, -8)
 texture = ExtResource("13_tiles")
 region_enabled = true
@@ -110,6 +116,7 @@ position = Vector2(520, 560)
 shape = SubResource("RectangleShape2D_plat1")
 
 [node name="PlatformArt" type="Sprite2D" parent="Platform1"]
+visible = false
 texture = ExtResource("13_tiles")
 region_enabled = true
 region_rect = Rect2(0, 64, 336, 24)
@@ -123,6 +130,7 @@ position = Vector2(910, 470)
 shape = SubResource("RectangleShape2D_plat2")
 
 [node name="PlatformArt" type="Sprite2D" parent="Platform2"]
+visible = false
 texture = ExtResource("13_tiles")
 region_enabled = true
 region_rect = Rect2(0, 64, 336, 24)
