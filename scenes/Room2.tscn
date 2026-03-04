@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://room2"]
+[gd_scene load_steps=18 format=3 uid="uid://room2"]
 
 [ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="1_pl"]
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="2_gm"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" path="res://scenes/VisionOverlay.tscn" id="10_vo"]
 [ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/background.png" id="11_bg"]
 [ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/columns.png" id="12_cols"]
+[ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/tileset.png" id="13_tiles"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
 size = Vector2(1400, 80)
@@ -34,16 +35,25 @@ offset_right = 1290.0
 offset_bottom = 730.0
 color = Color(0.02, 0.02, 0.04, 1)
 
-[node name="BgSprite" type="Sprite2D" parent="."]
+[node name="BgSpriteFar" type="Sprite2D" parent="."]
 position = Vector2(539, 112)
+scale = Vector2(1.02, 1.0)
+modulate = Color(0.52, 0.52, 0.6, 1)
+texture = ExtResource("11_bg")
+
+[node name="BgSpriteNear" type="Sprite2D" parent="."]
+position = Vector2(549, 122)
+modulate = Color(0.82, 0.82, 0.9, 0.68)
 texture = ExtResource("11_bg")
 
 [node name="ColumnsSprite" type="Sprite2D" parent="."]
 position = Vector2(261, 112)
+modulate = Color(0.82, 0.82, 0.88, 0.9)
 texture = ExtResource("12_cols")
 
 [node name="ColumnsSprite2" type="Sprite2D" parent="."]
 position = Vector2(783, 112)
+modulate = Color(0.82, 0.82, 0.88, 0.9)
 texture = ExtResource("12_cols")
 
 [node name="FogBack" type="ColorRect" parent="."]
@@ -62,12 +72,13 @@ position = Vector2(640, 680)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
 shape = SubResource("RectangleShape2D_floor")
 
-[node name="FloorVisual" type="ColorRect" parent="Floor"]
-offset_left = -700.0
-offset_top = -40.0
-offset_right = 700.0
-offset_bottom = 40.0
-color = Color(0.1, 0.09, 0.11, 1)
+[node name="FloorVisual" type="Sprite2D" parent="Floor"]
+position = Vector2(0, -8)
+texture = ExtResource("13_tiles")
+region_enabled = true
+region_rect = Rect2(0, 0, 336, 32)
+scale = Vector2(4.2, 2.2)
+modulate = Color(0.68, 0.68, 0.75, 1)
 
 [node name="Platform1" type="StaticBody2D" parent="."]
 position = Vector2(500, 530)
@@ -75,12 +86,12 @@ position = Vector2(500, 530)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform1"]
 shape = SubResource("RectangleShape2D_plat1")
 
-[node name="ColorRect" type="ColorRect" parent="Platform1"]
-offset_left = -115.0
-offset_top = -15.0
-offset_right = 115.0
-offset_bottom = 15.0
-color = Color(0.17, 0.15, 0.18, 1)
+[node name="PlatformArt" type="Sprite2D" parent="Platform1"]
+texture = ExtResource("13_tiles")
+region_enabled = true
+region_rect = Rect2(0, 64, 336, 24)
+scale = Vector2(0.78, 1.2)
+modulate = Color(0.78, 0.78, 0.84, 1)
 
 [node name="Platform2" type="StaticBody2D" parent="."]
 position = Vector2(850, 460)
@@ -88,12 +99,12 @@ position = Vector2(850, 460)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2"]
 shape = SubResource("RectangleShape2D_plat2")
 
-[node name="ColorRect" type="ColorRect" parent="Platform2"]
-offset_left = -115.0
-offset_top = -15.0
-offset_right = 115.0
-offset_bottom = 15.0
-color = Color(0.17, 0.15, 0.18, 1)
+[node name="PlatformArt" type="Sprite2D" parent="Platform2"]
+texture = ExtResource("13_tiles")
+region_enabled = true
+region_rect = Rect2(0, 64, 336, 24)
+scale = Vector2(0.78, 1.2)
+modulate = Color(0.78, 0.78, 0.84, 1)
 
 [node name="CorpseA" parent="." instance=ExtResource("8_corpse")]
 position = Vector2(420, 640)

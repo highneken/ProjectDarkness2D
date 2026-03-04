@@ -1,22 +1,16 @@
-[gd_scene format=3 uid="uid://corpseprop"]
+[gd_scene load_steps=2 format=3 uid="uid://corpseprop"]
+
+[ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/atlas/atlas.png" id="1_atlas"]
 
 [node name="CorpseProp" type="Node2D"]
 
-[node name="Body" type="ColorRect" parent="."]
-offset_left = -18.0
-offset_top = -8.0
-offset_right = 18.0
-offset_bottom = 8.0
-rotation = -0.18
-color = Color(0.16, 0.15, 0.17, 1)
-
-[node name="Head" type="ColorRect" parent="."]
-offset_left = 15.0
-offset_top = -10.0
-offset_right = 26.0
-offset_bottom = 1.0
-rotation = -0.12
-color = Color(0.23, 0.21, 0.22, 1)
+[node name="CorpseSprite" type="Sprite2D" parent="."]
+position = Vector2(0, -6)
+texture = ExtResource("1_atlas")
+region_enabled = true
+region_rect = Rect2(1040, 121, 81, 66)
+scale = Vector2(0.45, 0.45)
+modulate = Color(0.65, 0.6, 0.62, 0.95)
 
 [node name="BloodPool" type="ColorRect" parent="."]
 offset_left = -24.0
