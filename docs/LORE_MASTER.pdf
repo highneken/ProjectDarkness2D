@@ -1,0 +1,179 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [ 5 0 R 7 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 2689 >>
+stream
+BT /F1 11 Tf 50 800 Td 14 TL
+(# Project Darkness – LORE MASTER \(v1\)) Tj
+T*
+() Tj
+T*
+(## 1\) Kernidee) Tj
+T*
+(Ein namenloser Protagonist erwacht in einem gigantischen Thronsaal, umgeben von Leichen. Nach jedem Tod respawnt er wieder dort. Er kämpft sich durch eine verfluchte Kathedrale, sammelt Visionen und besiegt heilige Wächter-Bosse. Spät im Spiel wird klar: Er ist nicht der Retter, sondern das uralte Böse.) Tj
+T*
+() Tj
+T*
+(## 2\) Was der Spieler anfangs glaubt) Tj
+T*
+(- Der Protagonist ist ein Opfer.) Tj
+T*
+(- Die Ordenstochter \(aus Visionen\) ist sein Liebesinteresse.) Tj
+T*
+(- Die Kathedrale ist ein Gefängnis aus alter Zeit.) Tj
+T*
+() Tj
+T*
+(## 3\) Was tatsächlich stimmt \(Twist-Ebene\)) Tj
+T*
+(- Die Kathedrale ist eine eigene Dimension, nicht die Vergangenheit.) Tj
+T*
+(- Der Protagonist hat die Wiedergeburt/Unsterblichkeit durch einen Frevel gegen den heiligen Orden ausgelöst.) Tj
+T*
+(- Der Orden opferte die Tochter, um den Fluch zu erschaffen, der ihn auf ewig binden soll.) Tj
+T*
+(- Die Bosse sind Teil einer heiligen Wächterlinie/Familienlinie, die den Fluch aufrechterhält.) Tj
+T*
+(- Nach dem Ausbruch landet der Protagonist in der Moderne.) Tj
+T*
+() Tj
+T*
+(## 4\) Fluch-Logik \(klar und spielbar\)) Tj
+T*
+(- Tod -> Respawn im Thronsaal.) Tj
+T*
+(- Kleine Gegner sind verweste Echos früherer Durchläufe.) Tj
+T*
+(- Jeder Boss ist ein Siegelträger des Rituals.) Tj
+T*
+(- Jeder Bosskill öffnet mehr Erinnerung \(Visionen\).) Tj
+T*
+() Tj
+T*
+(## 5\) Gedächtnisverlust \(finale Arbeitsversion\)) Tj
+T*
+(Der Protagonist verliert gezielt Teile seiner Erinnerung \(Motive/Identität\), behält aber Instinkte \(Kampf, Überleben, „raus hier“\).) Tj
+T*
+() Tj
+T*
+(**Warum?**) Tj
+T*
+(- Der Orden kennt sein großes Ziel \(Ausbruch\), aber nicht den konkreten Weg.) Tj
+T*
+(- Die fehlenden Erinnerungsfragmente funktionieren wie ein Schlüsselcode, der erst durch Visionen/Boss-Siegel rekonstruiert wird.) Tj
+T*
+() Tj
+T*
+(## 6\) Story in 5 Akten) Tj
+T*
+(### Akt I – Erwachen) Tj
+T*
+(Thronsaal, Leichen, erste Vision der Opferung der Ordenstochter.) Tj
+T*
+() Tj
+T*
+(### Akt II – Der Käfig) Tj
+T*
+(Kathedrale als lebender Kerker, erste Gegner, fragmentierte Visionen.) Tj
+T*
+() Tj
+T*
+(### Akt III – Die Wächter) Tj
+T*
+(Heilige Bossfiguren, jedes Siegel bricht ein Stück Wahrheit frei.) Tj
+T*
+() Tj
+T*
+(### Akt IV – Die Wahrheit) Tj
+T*
+(Der Held ist Ursprung des Unheils, nicht dessen Opfer.) Tj
+T*
+() Tj
+T*
+(### Akt V – Ausbruch) Tj
+T*
+(Dimension bricht, Übergang in die Moderne, Rückkehr des Bösen droht neue Weltordnung.) Tj
+T*
+() Tj
+T*
+(## 7\) Boss-Roadmap \(aktuell\)) Tj
+T*
+(1. Der **Stille Diakon** \(Mini-Boss / Vertical Slice\)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 731 >>
+stream
+BT /F1 11 Tf 50 800 Td 14 TL
+(2. Die **Geblendete Priorin**) Tj
+T*
+(3. Der **Aschene Richter**) Tj
+T*
+(4. Die **Kettenstimme**) Tj
+T*
+(5. Der **Letzte Hüter**) Tj
+T*
+() Tj
+T*
+(## 8\) Ton & Atmosphäre) Tj
+T*
+(- Düstere, sakrale Architektur) Tj
+T*
+(- Leichen-Posen als Story-Sprache) Tj
+T*
+(- Visionen kurz, poetisch, unvollständig) Tj
+T*
+(- Bossdialoge als Urteilssprache) Tj
+T*
+() Tj
+T*
+(## 9\) Vertical Slice – Lore-Definition of Done) Tj
+T*
+(- Start im Thronsaal) Tj
+T*
+(- Respawn-Loop spürbar) Tj
+T*
+(- 1 Boss \(Stiller Diakon\)) Tj
+T*
+(- 1 Vision nach Boss mit klarer Andeutung: „Du wurdest gefürchtet, nicht verfolgt.") Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(**Status:** Arbeits-Canon v1 \(für Teamabstimmung\)) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000123 00000 n 
+0000000193 00000 n 
+0000002934 00000 n 
+0000003060 00000 n 
+0000003842 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3968
+%%EOF
