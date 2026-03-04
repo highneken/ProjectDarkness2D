@@ -14,6 +14,12 @@ var hit_cooldown := false
 var target: Node2D
 
 @onready var visual: ColorRect = $ColorRect
+@onready var sprite: Sprite2D = $BodySprite
+
+const FRAME_GHOUL_1 := Rect2(1366, 2, 57, 60)
+const FRAME_GHOUL_2 := Rect2(1425, 2, 57, 60)
+
+var anim_t := 0.0
 
 func _ready() -> void:
 	hp = max_hp
@@ -37,6 +43,9 @@ func _physics_process(delta: float) -> void:
 			dir = 1
 
 	move_and_slide()
+	anim_t += delta * 8.0
+	sprite.region_rect = FRAME_GHOUL_1 if int(anim_t) % 2 == 0 else FRAME_GHOUL_2
+	sprite.flip_h = dir < 0
 
 func take_damage(amount: int) -> void:
 	hp -= amount

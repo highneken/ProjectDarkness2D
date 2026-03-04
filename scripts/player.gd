@@ -16,6 +16,13 @@ signal hp_changed(current: int, max: int)
 @export var dash_time: float = 0.16
 @export var dash_cooldown: float = 0.7
 
+const FRAME_IDLE := Rect2(1169, 189, 82, 60)
+const FRAME_WALK_1 := Rect2(842, 257, 82, 60)
+const FRAME_WALK_2 := Rect2(926, 257, 82, 60)
+const FRAME_JUMP := Rect2(1505, 189, 82, 60)
+const FRAME_ATTACK_1 := Rect2(338, 257, 82, 60)
+const FRAME_ATTACK_2 := Rect2(422, 257, 82, 60)
+
 var hp: int
 var facing: int = 1
 var attack_active := false
@@ -25,18 +32,22 @@ var invuln := false
 var is_dashing := false
 var dash_time_left := 0.0
 var dash_cooldown_left := 0.0
+var walk_anim_t := 0.0
 
 @onready var attack_area: Area2D = $AttackArea
 @onready var attack_shape: CollisionShape2D = $AttackArea/CollisionShape2D
 @onready var body_visual: ColorRect = $ColorRect
+@onready var body_sprite: Sprite2D = $BodySprite
 @onready var sword_visual: ColorRect = $Sword
 @onready var slash_trail: ColorRect = $SlashTrail
 
 func _ready() -> void:
 	hp = max_hp
 	attack_shape.disabled = true
+	body_visual.visible = false
 	sword_visual.visible = false
 	slash_trail.visible = false
+	body_sprite.region_rect = FRAME_IDLE
 	emit_signal("hp_changed", hp, max_hp)
 
 func _physics_process(delta: float) -> void:
@@ -87,14 +98,29 @@ func _physics_process(delta: float) -> void:
 	slash_trail.position = Vector2(22 * facing, -12)
 	sword_visual.scale.x = facing
 	slash_trail.scale.x = facing
+	body_sprite.flip_h = facing < 0
 	move_and_slide()
+	_update_visual_state(delta)
 
 	if global_position.y > 1200:
 		die()
 
+func _update_visual_state(delta: float) -> void:
+	if attack_active:
+		return
+	if not is_on_floor():
+		body_sprite.region_rect = FRAME_JUMP
+		return
+	if abs(velocity.x) > 5.0:
+		walk_anim_t += delta * 9.0
+		body_sprite.region_rect = FRAME_WALK_1 if int(walk_anim_t) % 2 == 0 else FRAME_WALK_2
+	else:
+		body_sprite.region_rect = FRAME_IDLE
+
 func start_attack() -> void:
 	attack_active = true
 	attack_shape.disabled = false
+	body_sprite.region_rect = FRAME_ATTACK_1
 
 	sword_visual.visible = true
 	slash_trail.visible = true
@@ -105,6 +131,7 @@ func start_attack() -> void:
 	var tw := create_tween()
 	tw.tween_property(slash_trail, "modulate:a", 0.8, 0.05)
 	tw.parallel().tween_property(sword_visual, "rotation", 0.45 * facing, 0.09)
+	tw.parallel().tween_callback(func(): body_sprite.region_rect = FRAME_ATTACK_2)
 	tw.tween_property(slash_trail, "modulate:a", 0.0, 0.08)
 
 	for body in attack_area.get_overlapping_bodies():
@@ -124,9 +151,9 @@ func take_damage(amount: int) -> void:
 	hp -= amount
 	emit_signal("hp_changed", hp, max_hp)
 	invuln = true
-	body_visual.color = Color(1, 0.45, 0.45, 1)
+	body_sprite.modulate = Color(1, 0.55, 0.55, 1)
 	await get_tree().create_timer(invuln_time).timeout
-	body_visual.color = Color(0.8, 0.85, 0.95, 1)
+	body_sprite.modulate = Color(1, 1, 1, 1)
 	invuln = false
 	if hp <= 0:
 		die()
