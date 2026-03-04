@@ -61,7 +61,7 @@ offset_left = -10.0
 offset_top = 260.0
 offset_right = 1290.0
 offset_bottom = 720.0
-color = Color(0.05, 0.02, 0.03, 0.18)
+color = Color(0.05, 0.02, 0.03, 0.1)
 
 [node name="Vignette" type="ColorRect" parent="."]
 z_index = 20
@@ -70,7 +70,7 @@ offset_top = -10.0
 offset_right = 1290.0
 offset_bottom = 730.0
 mouse_filter = 2
-color = Color(0, 0, 0, 0.12)
+color = Color(0, 0, 0, 0.06)
 
 [node name="SpawnPoint" type="Marker2D" parent="."]
 position = Vector2(200, 500)
@@ -81,6 +81,13 @@ offset_top = 460.0
 offset_right = 280.0
 offset_bottom = 650.0
 color = Color(0.2, 0.08, 0.08, 1)
+
+[node name="GroundLane" type="ColorRect" parent="."]
+offset_left = -20.0
+offset_top = 620.0
+offset_right = 1300.0
+offset_bottom = 696.0
+color = Color(0.22, 0.22, 0.26, 0.55)
 
 [node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2(640, 680)
