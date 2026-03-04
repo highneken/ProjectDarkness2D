@@ -29,10 +29,14 @@ var dash_cooldown_left := 0.0
 @onready var attack_area: Area2D = $AttackArea
 @onready var attack_shape: CollisionShape2D = $AttackArea/CollisionShape2D
 @onready var body_visual: ColorRect = $ColorRect
+@onready var sword_visual: ColorRect = $Sword
+@onready var slash_trail: ColorRect = $SlashTrail
 
 func _ready() -> void:
 	hp = max_hp
 	attack_shape.disabled = true
+	sword_visual.visible = false
+	slash_trail.visible = false
 	emit_signal("hp_changed", hp, max_hp)
 
 func _physics_process(delta: float) -> void:
@@ -79,6 +83,10 @@ func _physics_process(delta: float) -> void:
 			start_attack()
 
 	attack_area.position.x = 26 * facing
+	sword_visual.position = Vector2(16 * facing, -8)
+	slash_trail.position = Vector2(22 * facing, -12)
+	sword_visual.scale.x = facing
+	slash_trail.scale.x = facing
 	move_and_slide()
 
 	if global_position.y > 1200:
@@ -87,12 +95,27 @@ func _physics_process(delta: float) -> void:
 func start_attack() -> void:
 	attack_active = true
 	attack_shape.disabled = false
+
+	sword_visual.visible = true
+	slash_trail.visible = true
+	slash_trail.modulate.a = 0.0
+	slash_trail.rotation = -0.45 * facing
+	sword_visual.rotation = -0.25 * facing
+
+	var tw := create_tween()
+	tw.tween_property(slash_trail, "modulate:a", 0.8, 0.05)
+	tw.parallel().tween_property(sword_visual, "rotation", 0.45 * facing, 0.09)
+	tw.tween_property(slash_trail, "modulate:a", 0.0, 0.08)
+
 	for body in attack_area.get_overlapping_bodies():
 		if body.has_method("take_damage"):
 			body.take_damage(attack_damage)
+
 	await get_tree().create_timer(0.12).timeout
 	attack_shape.disabled = true
-	await get_tree().create_timer(0.18).timeout
+	sword_visual.visible = false
+	slash_trail.visible = false
+	await get_tree().create_timer(0.14).timeout
 	attack_active = false
 
 func take_damage(amount: int) -> void:
