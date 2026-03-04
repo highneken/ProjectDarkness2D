@@ -1,31 +1,30 @@
-# STORY & LORE
+# STORY & LORE (Canon)
 
-## Ausgangslage
-Der Protagonist erwacht namenlos in einem riesigen Thronsaal, umgeben von verwesten Leichen.
-Viele Leichen tragen dieselben Grundmerkmale wie er selbst.
+## Prämisse
+Du erwachst in einem gigantischen Thronsaal, umgeben von verwesten Leichen. Du kennst weder deinen Namen noch deine Vergangenheit.
+Alles in dir schreit nur: **Raus aus dieser Kathedrale.**
 
-## Was der Spieler anfangs weiß
-- Wer bin ich?
-- Warum bin ich hier gefangen?
-- Warum führt jeder Weg tiefer in die Kathedrale?
+## Struktur der Erzählung
+- Frühes Spiel: Verwirrung, Visionen ohne klaren Zusammenhang
+- Midgame: Wiederkehrende Muster (Leichen ähneln dir, Bosse sprechen von Fluch und Urteil)
+- Spätspiel: Wahrheit zerreißt die Heldenfantasie
 
-## Wahrheiten (später Reveal)
-- Der Held ist verflucht und an die Kathedrale gebunden.
-- Die Bosse sind heilige Wächter, die den Fluch aufrechterhalten.
-- Die Kathedrale ist eine andere Dimension, nicht die Vergangenheit.
-- Der Protagonist ist das ultimative Böse.
-- Anhänger außerhalb der Dimension speisen über Jahrtausende Kraft in ihn.
-- Finale: Ausbruch in die moderne Welt, neue Ordnung droht.
+## Fluch-Loop
+- Bei Tod Respawn am Thron
+- Jeder Loop wirkt wie eine weitere Schicht der Verdammnis
+- Kleine Gegner sind verweste Echos deiner früheren Durchläufe
 
-## Gegner-Lore
-Kleinere Mobs sind **verwestes Echos früherer Durchläufe** des Protagonisten.
-Sie sind wie abgestorbene Fragmente seiner endlosen Respawn-Schleife.
+## Die Bosse
+Heilige Wächterfiguren, die den Fluch aufrechterhalten sollen.
+Sie sind keine zufälligen Monster, sondern exekutieren ein uraltes Urteil gegen dich.
 
-## Story Delivery
-- Visionen (1-3 Sätze)
-- Umgebungsdetails (Inschriften, Statuen, Leichen-Posen)
-- Boss-Dialogzeilen vor/nach Kämpfen
+## End-Reveal
+- Die Kathedrale ist keine alte Vergangenheit, sondern eine eigene Dimension
+- Draußen wartet die moderne Welt
+- Du warst nie der Erlöser, sondern das ultimative Böse
+- Über Jahrtausende haben verbliebene Anhänger deine Rückkehr vorbereitet
 
-## Spoiler-Regel
-Frühe Akte erzeugen Fragen, keine klaren Antworten.
-Volle Wahrheit erst spät.
+## Delivery im Spiel
+- Vision-Overlays (kurz, poetisch, fragmentiert)
+- Umgebung (Leichen, Symbole, kaputte Heiligtümer)
+- Boss-Intro/Outro-Zeilen

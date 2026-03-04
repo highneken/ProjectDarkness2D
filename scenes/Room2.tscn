@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://room2"]
+[gd_scene load_steps=15 format=3 uid="uid://room2"]
 
 [ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="1_pl"]
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="2_gm"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" path="res://scenes/Door.tscn" id="7_door"]
 [ext_resource type="PackedScene" path="res://scenes/CorpseProp.tscn" id="8_corpse"]
 [ext_resource type="PackedScene" path="res://scenes/PillarProp.tscn" id="9_pillar"]
+[ext_resource type="PackedScene" path="res://scenes/VisionOverlay.tscn" id="10_vo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
 size = Vector2(1400, 80)
@@ -129,6 +130,9 @@ target_scene = "res://scenes/Main.tscn"
 door_label = "Back"
 
 [node name="HUD" parent="." instance=ExtResource("6_hud")]
+
+[node name="VisionOverlay" parent="." instance=ExtResource("10_vo")]
+intro_text = "Vision: Goldene Masken knien vor dir. Dann nur noch Asche und Schweigen."
 
 [node name="GameManager" type="Node" parent="."]
 script = ExtResource("2_gm")

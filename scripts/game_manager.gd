@@ -7,6 +7,7 @@ var death_count: int = 0
 @onready var main := get_parent()
 @onready var player := main.get_node("Player")
 @onready var spawn_point := main.get_node("SpawnPoint")
+@onready var vision := main.get_node_or_null("VisionOverlay")
 var respawn_pos: Vector2
 
 func _ready() -> void:
@@ -31,4 +32,6 @@ func _on_player_died() -> void:
 		if player.has_signal("hp_changed"):
 			player.emit_signal("hp_changed", player.hp, player.max_hp)
 	emit_signal("death_count_changed", death_count)
+	if vision and death_count == 3 and vision.has_method("show_vision"):
+		vision.show_vision("Vision: Dieselben Hallen. Dieselben Knochen. Dieselbe Schuld.", 3.4)
 	print("Deaths:", death_count)

@@ -8,21 +8,24 @@
 - [x] Respawn-Basis (KillZone -> SpawnPoint)
 
 ## M2 – Combat Basics
-- [ ] Angriff (Hitbox)
-- [ ] Enemy A (Verwestes Echo)
-- [ ] HP + Damage
+- [x] Angriff (Hitbox)
+- [x] Enemy A (Verwestes Echo)
+- [x] HP + Damage
+- [x] Dash + Cooldown
 
 ## M3 – Death Loop Polish
-- [ ] Kurzer Death-Hinweis/UI
-- [ ] Gegner-Reset sauber testen
-- [ ] Death Counter UI (optional)
+- [x] Death Counter UI
+- [x] Checkpoint-Heal + Aktivierungsfeedback
+- [ ] Gegner-Reset pro Raum weiter verbessern
 
 ## M4 – Story Slice
-- [ ] Vision-Overlay
-- [ ] Mini-Boss
-- [ ] Abschnittsende mit Story-Schnipsel
+- [x] Vision-Overlay (Main/Room2 + Death Trigger)
+- [x] Raum-Transition (Main <-> Room2)
+- [ ] Mini-Boss (2 Muster)
+- [ ] Abschnittsende mit stärkerem Story-Schnipsel
 
 ## M5 – Atmosphäre
+- [x] Düstere Platzhalter-Props (Leichen, Säulen)
+- [ ] Externe Pixel-Assetpacks integrieren (privat)
 - [ ] Audio-Atmosphäre
-- [ ] Licht/Farblook
 - [ ] Balancing
