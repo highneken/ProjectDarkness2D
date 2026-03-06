@@ -49,11 +49,24 @@ func _physics_process(delta: float) -> void:
 
 func take_damage(amount: int) -> void:
 	hp -= amount
+	_flash_hit()
+	if hp <= 0:
+		_die()
+
+func _flash_hit() -> void:
 	visual.color = Color(0.9, 0.45, 0.45, 1)
 	await get_tree().create_timer(0.08).timeout
-	visual.color = Color(0.45, 0.5, 0.55, 1)
-	if hp <= 0:
-		queue_free()
+	if is_instance_valid(visual):
+		visual.color = Color(0.45, 0.5, 0.55, 1)
+
+func _die() -> void:
+	# M1: Death feedback - flash white then fade out
+	if sprite:
+		sprite.modulate = Color(2, 2, 2, 1)
+		var tween := create_tween()
+		tween.tween_property(sprite, "modulate", Color(1, 1, 1, 0), 0.3)
+		await tween.finished
+	queue_free()
 
 func _on_hitbox_body_entered(body: Node2D) -> void:
 	if hit_cooldown:
