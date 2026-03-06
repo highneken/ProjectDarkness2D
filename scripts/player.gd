@@ -151,12 +151,27 @@ func take_damage(amount: int) -> void:
 	hp -= amount
 	emit_signal("hp_changed", hp, max_hp)
 	invuln = true
-	body_sprite.modulate = Color(1, 0.55, 0.55, 1)
+	
+	# M1: Screenshake and hit feedback
+	_trigger_screenshake()
+	_flash_damage()
+	
 	await get_tree().create_timer(invuln_time).timeout
 	body_sprite.modulate = Color(1, 1, 1, 1)
 	invuln = false
 	if hp <= 0:
 		die()
+
+func _trigger_screenshake() -> void:
+	var camera := get_node_or_null("Camera2D")
+	if camera:
+		var tween := create_tween()
+		for i in range(5):
+			tween.tween_property(camera, "offset", Vector2(randf_range(-3, 3), randf_range(-3, 3)), 0.03)
+		tween.tween_property(camera, "offset", Vector2.ZERO, 0.1)
+
+func _flash_damage() -> void:
+	body_sprite.modulate = Color(1, 0.3, 0.3, 1)
 
 func die() -> void:
 	emit_signal("died")
