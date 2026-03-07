@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://throne"]
+[gd_scene load_steps=17 format=3 uid="uid://throne"]
 
 [ext_resource type="PackedScene" uid="uid://player" path="res://scenes/Player.tscn" id="1_player"]
 [ext_resource type="PackedScene" uid="uid://door" path="res://scenes/Door.tscn" id="2_door"]
@@ -7,15 +7,128 @@
 [ext_resource type="PackedScene" uid="uid://hud" path="res://scenes/HUD.tscn" id="5_hud"]
 [ext_resource type="PackedScene" uid="uid://pillarprop" path="res://scenes/PillarProp.tscn" id="6_pillar"]
 [ext_resource type="PackedScene" uid="uid://corpseprop" path="res://scenes/CorpseProp.tscn" id="7_corpse"]
+[ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/background.png" id="8_bg"]
+[ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/columns.png" id="9_cols"]
+[ext_resource type="Texture2D" path="res://assets/external/gothicvania/gothicvania_church/assets/environment/tileset.png" id="10_tiles"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
+size = Vector2(1280, 40)
 
 [node name="ThroneRoom" type="Node2D"]
 
 [node name="Backdrop" type="ColorRect" parent="."]
-offset_left = -10.0
-offset_top = -10.0
-offset_right = 1290.0
-offset_bottom = 730.0
-color = Color(0.07, 0.03, 0.03, 1)
+offset_left = -220.0
+offset_top = -120.0
+offset_right = 1500.0
+offset_bottom = 900.0
+color = Color(0.04, 0.03, 0.07, 1)
+
+[node name="BgFar" type="Sprite2D" parent="."]
+position = Vector2(640, 170)
+scale = Vector2(1.9, 1.45)
+modulate = Color(0.44, 0.46, 0.58, 0.52)
+texture = ExtResource("8_bg")
+
+[node name="BgMid" type="Sprite2D" parent="."]
+position = Vector2(640, 200)
+scale = Vector2(1.6, 1.25)
+modulate = Color(0.56, 0.58, 0.72, 0.38)
+texture = ExtResource("8_bg")
+
+[node name="ColumnsLeft" type="Sprite2D" parent="."]
+position = Vector2(210, 255)
+scale = Vector2(1.22, 1.42)
+modulate = Color(0.65, 0.63, 0.72, 0.44)
+texture = ExtResource("9_cols")
+
+[node name="ColumnsRight" type="Sprite2D" parent="."]
+position = Vector2(1070, 255)
+scale = Vector2(1.22, 1.42)
+modulate = Color(0.65, 0.63, 0.72, 0.44)
+texture = ExtResource("9_cols")
+
+[node name="UpperDarkness" type="ColorRect" parent="."]
+offset_left = -100.0
+offset_top = -60.0
+offset_right = 1380.0
+offset_bottom = 210.0
+color = Color(0.01, 0.01, 0.03, 0.52)
+
+[node name="MoonMistFar" type="ColorRect" parent="."]
+offset_left = -50.0
+offset_top = 145.0
+offset_right = 1330.0
+offset_bottom = 205.0
+color = Color(0.66, 0.72, 0.86, 0.08)
+
+[node name="MoonMistMid" type="ColorRect" parent="."]
+offset_left = -40.0
+offset_top = 238.0
+offset_right = 1320.0
+offset_bottom = 305.0
+color = Color(0.58, 0.62, 0.8, 0.09)
+
+[node name="FogLayer_Far" type="ColorRect" parent="."]
+offset_left = -40.0
+offset_top = 360.0
+offset_right = 1320.0
+offset_bottom = 640.0
+color = Color(0.07, 0.06, 0.11, 0.22)
+
+[node name="FogLayer_Near" type="ColorRect" parent="."]
+z_index = 14
+offset_left = -40.0
+offset_top = 530.0
+offset_right = 1320.0
+offset_bottom = 700.0
+color = Color(0.72, 0.76, 0.9, 0.07)
+
+[node name="SpawnPoint" type="Marker2D" parent="."]
+position = Vector2(150, 620)
+
+[node name="Throne" type="ColorRect" parent="."]
+offset_left = 565.0
+offset_top = 490.0
+offset_right = 720.0
+offset_bottom = 670.0
+color = Color(0.16, 0.05, 0.08, 1)
+
+[node name="ThroneBackplate" type="ColorRect" parent="Throne"]
+offset_left = -35.0
+offset_top = -125.0
+offset_right = 190.0
+offset_bottom = -5.0
+color = Color(0.07, 0.04, 0.09, 0.92)
+
+[node name="ThroneSeatGlow" type="ColorRect" parent="Throne"]
+offset_left = 16.0
+offset_top = 52.0
+offset_right = 138.0
+offset_bottom = 150.0
+color = Color(0.45, 0.16, 0.12, 0.35)
+
+[node name="ThroneGlow" type="ColorRect" parent="."]
+offset_left = 500.0
+offset_top = 430.0
+offset_right = 790.0
+offset_bottom = 700.0
+color = Color(0.64, 0.22, 0.17, 0.12)
+
+[node name="RuneMark_A" type="ColorRect" parent="."]
+offset_left = 610.0
+offset_top = 668.0
+offset_right = 676.0
+offset_bottom = 675.0
+rotation = 0.04
+color = Color(0.67, 0.2, 0.18, 0.45)
+
+[node name="RuneMark_B" type="ColorRect" parent="."]
+offset_left = 592.0
+offset_top = 684.0
+offset_right = 698.0
+offset_bottom = 690.0
+rotation = -0.03
+color = Color(0.63, 0.18, 0.17, 0.3)
 
 [node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2(640, 700)
@@ -23,22 +136,97 @@ position = Vector2(640, 700)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
 shape = SubResource("RectangleShape2D_floor")
 
-[node name="ColorRect" type="ColorRect" parent="Floor"]
-offset_left = -640.0
-offset_top = -20.0
-offset_right = 640.0
-offset_bottom = 20.0
-color = Color(0.1, 0.08, 0.08, 1)
+[node name="FloorVisual" type="Sprite2D" parent="Floor"]
+position = Vector2(0, -8)
+texture = ExtResource("10_tiles")
+region_enabled = true
+region_rect = Rect2(0, 0, 336, 32)
+scale = Vector2(3.95, 2.4)
+modulate = Color(0.56, 0.56, 0.63, 0.88)
 
-[node name="SpawnPoint" type="Marker2D" parent="."]
-position = Vector2(150, 620)
+[node name="FloorEdgeLine" type="ColorRect" parent="."]
+offset_left = 0.0
+offset_top = 675.0
+offset_right = 1280.0
+offset_bottom = 681.0
+color = Color(0.66, 0.56, 0.4, 0.33)
+
+[node name="DebrisBand" type="ColorRect" parent="."]
+offset_left = 0.0
+offset_top = 681.0
+offset_right = 1280.0
+offset_bottom = 706.0
+color = Color(0.1, 0.08, 0.1, 0.72)
+
+[node name="PathGuideGlow" type="ColorRect" parent="."]
+offset_left = 120.0
+offset_top = 560.0
+offset_right = 1240.0
+offset_bottom = 696.0
+color = Color(0.45, 0.33, 0.2, 0.09)
+
+[node name="PillarFrame_Left_A" parent="." instance=ExtResource("6_pillar")]
+position = Vector2(80, 680)
+scale = Vector2(1.08, 1.35)
+
+[node name="PillarFrame_Left_B" parent="." instance=ExtResource("6_pillar")]
+position = Vector2(255, 680)
+scale = Vector2(0.78, 1.05)
+
+[node name="PillarFrame_Right_A" parent="." instance=ExtResource("6_pillar")]
+position = Vector2(1200, 680)
+scale = Vector2(1.08, 1.35)
+
+[node name="PillarFrame_Right_B" parent="." instance=ExtResource("6_pillar")]
+position = Vector2(1025, 680)
+scale = Vector2(0.78, 1.05)
+
+[node name="PillarThrone_Left" parent="." instance=ExtResource("6_pillar")]
+position = Vector2(500, 682)
+scale = Vector2(0.7, 0.98)
+
+[node name="PillarThrone_Right" parent="." instance=ExtResource("6_pillar")]
+position = Vector2(790, 682)
+scale = Vector2(0.7, 0.98)
+
+[node name="Corpse1" parent="." instance=ExtResource("7_corpse")]
+position = Vector2(305, 685)
+rotation = -0.12
+
+[node name="Corpse2" parent="." instance=ExtResource("7_corpse")]
+position = Vector2(420, 688)
+rotation = 0.08
+
+[node name="Corpse3" parent="." instance=ExtResource("7_corpse")]
+position = Vector2(910, 688)
+rotation = -0.1
+
+[node name="Corpse4" parent="." instance=ExtResource("7_corpse")]
+position = Vector2(1030, 686)
+rotation = 0.14
+
+[node name="RelicShard_A" type="ColorRect" parent="."]
+offset_left = 530.0
+offset_top = 666.0
+offset_right = 560.0
+offset_bottom = 675.0
+rotation = -0.18
+color = Color(0.32, 0.18, 0.16, 0.8)
+
+[node name="RelicShard_B" type="ColorRect" parent="."]
+offset_left = 730.0
+offset_top = 670.0
+offset_right = 766.0
+offset_bottom = 678.0
+rotation = 0.2
+color = Color(0.32, 0.18, 0.16, 0.8)
 
 [node name="Player" parent="." instance=ExtResource("1_player")]
 position = Vector2(150, 620)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(0, -50)
-zoom = Vector2(1.2, 1.2)
+position = Vector2(0, -20)
+zoom = Vector2(1, 1)
 limit_left = 0
 limit_top = 0
 limit_right = 1280
@@ -51,17 +239,21 @@ position = Vector2(640, 600)
 position = Vector2(1100, 620)
 target_scene = "res://scenes/Main.tscn"
 
-[node name="PillarLeft" parent="." instance=ExtResource("6_pillar")]
-position = Vector2(100, 680)
+[node name="ExitFrameGlow" type="ColorRect" parent="."]
+offset_left = 1060.0
+offset_top = 520.0
+offset_right = 1180.0
+offset_bottom = 700.0
+color = Color(0.46, 0.35, 0.2, 0.12)
 
-[node name="PillarRight" parent="." instance=ExtResource("6_pillar")]
-position = Vector2(1180, 680)
-
-[node name="Corpse1" parent="." instance=ExtResource("7_corpse")]
-position = Vector2(300, 685)
-
-[node name="Corpse2" parent="." instance=ExtResource("7_corpse")]
-position = Vector2(900, 685)
+[node name="Vignette" type="ColorRect" parent="."]
+z_index = 18
+offset_left = -220.0
+offset_top = -120.0
+offset_right = 1500.0
+offset_bottom = 900.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.2)
 
 [node name="GameManager" type="Node" parent="."]
 script = ExtResource("4_gm")
@@ -69,22 +261,21 @@ script = ExtResource("4_gm")
 [node name="HUD" parent="." instance=ExtResource("5_hud")]
 
 [node name="ThroneLabel" type="Label" parent="HUD"]
-offset_left = 540.0
+offset_left = 520.0
 offset_top = 100.0
-offset_right = 740.0
-offset_bottom = 140.0
-theme_override_font_sizes/font_size = 24
+offset_right = 760.0
+offset_bottom = 144.0
+theme_override_colors/font_color = Color(0.9, 0.82, 0.7, 0.94)
+theme_override_font_sizes/font_size = 26
 text = "THE THRONE ROOM"
 horizontal_alignment = 1
 
 [node name="InstructionLabel" type="Label" parent="HUD"]
-offset_left = 440.0
+offset_left = 430.0
 offset_top = 450.0
-offset_right = 840.0
+offset_right = 850.0
 offset_bottom = 500.0
+theme_override_colors/font_color = Color(0.78, 0.74, 0.68, 0.84)
 theme_override_font_sizes/font_size = 16
 text = "Press RIGHT to enter the dungeon"
 horizontal_alignment = 1
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
-size = Vector2(1280, 40)
