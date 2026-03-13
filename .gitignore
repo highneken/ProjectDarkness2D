@@ -1,1 +1,4 @@
 demo.avi
+.godot/
+*.import
+screenshot_*.png

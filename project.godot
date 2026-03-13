@@ -6,14 +6,19 @@ config_version=5
 [application]
 config/name="ProjectDarkness2D"
 run/main_scene="res://scenes/Main.tscn"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.6")
 
 [display]
 window/mode=0
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep"
+
+[rendering]
+textures/canvas_textures/default_texture_filter=0
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true
 
 [input]
 move_left={

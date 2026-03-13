@@ -1,0 +1,512 @@
+# PNG Asset Kategorien
+
+Gesamt PNGs: **496**
+
+## characters (349)
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/EnemyDeath/Sprites/enemy-death-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/EnemyDeath/Sprites/enemy-death-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/EnemyDeath/Sprites/enemy-death-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/EnemyDeath/Sprites/enemy-death-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/EnemyDeath/Sprites/enemy-death-5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/Sprites/ghost-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/Sprites/ghost-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/Sprites/ghost-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/Sprites/ghost-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/SpritesHalo/ghost-halo-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/SpritesHalo/ghost-halo-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/SpritesHalo/ghost-halo-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/ghost/SpritesHalo/ghost-halo-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/hell-gato/Sprites/hell-gato-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/hell-gato/Sprites/hell-gato-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/hell-gato/Sprites/hell-gato-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/hell-gato/Sprites/hell-gato-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-7.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/Walk/skeleton-8.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-7.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/Sprites/walk-clothed/skeleton-clothed-8.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise-clothed/skeleton-rise-clothed-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise-clothed/skeleton-rise-clothed-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise-clothed/skeleton-rise-clothed-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise-clothed/skeleton-rise-clothed-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise-clothed/skeleton-rise-clothed-5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise-clothed/skeleton-rise-clothed-6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise/skeleton-rise-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise/skeleton-rise-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise/skeleton-rise-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise/skeleton-rise-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise/skeleton-rise-5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Enemies/skeleton/skeleton-rise/skeleton-rise-6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/Death/frame7.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-attack/frame1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-attack/frame2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-attack/frame3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-attack/frame4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-attack/frame5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-attack/frame6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-crouch/hero-crouch.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-hurt/hero-hurt.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-idle/hero-idle-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-idle/hero-idle-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-idle/hero-idle-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-idle/hero-idle-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-jump/hero-jump-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-jump/hero-jump-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-jump/hero-jump-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-jump/hero-jump-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-run/hero-run-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-run/hero-run-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-run/hero-run-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-run/hero-run-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-run/hero-run-5.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Sprites/hero-run/hero-run-6.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/death.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/hero-attack.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/hero-crouch.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/hero-hurt.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/hero-idle.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/hero-jump.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/Spritesheets/hero-run.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/previews/hero-crouch.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Characters/Hero/previews/hero-hurt.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/sprites/credits-text.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/sprites/game-over.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/sprites/instructions.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/sprites/loading.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/sprites/press-enter-text.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/sprites/title-screen.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-idle/bearded-idle-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-idle/bearded-idle-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-idle/bearded-idle-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-idle/bearded-idle-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-idle/bearded-idle-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-walk/bearded-walk-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-walk/bearded-walk-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-walk/bearded-walk-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-walk/bearded-walk-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-walk/bearded-walk-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/bearded-walk/bearded-walk-6.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-idle/hat-man-idle-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-idle/hat-man-idle-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-idle/hat-man-idle-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-idle/hat-man-idle-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-walk/hat-man-walk-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-walk/hat-man-walk-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-walk/hat-man-walk-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-walk/hat-man-walk-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-walk/hat-man-walk-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/hat-man-walk/hat-man-walk-6.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-6.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-7.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-idle/oldman-idle-8.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-10.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-11.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-12.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-6.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-7.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-8.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/oldman-walk/oldman-walk-9.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-6.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-idle/woman-idle-7.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-walk/woman-walk-1.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-walk/woman-walk-2.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-walk/woman-walk-3.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-walk/woman-walk-4.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-walk/woman-walk-5.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/sprites/woman-walk/woman-walk-6.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/bearded-idle.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/bearded-walk.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/hat-man-idle.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/hat-man-walk.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/oldman-idle.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/oldman-walk.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/woman-idle.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/spritesheets/woman-walk.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/sprites/credits-text.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/sprites/instructions.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/sprites/loading.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/sprites/press-enter-text.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/sprites/title-screen.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox-sword/fox-sword8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/fox/fox8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/no-shuriken-dude/no-shuriken-dude9.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken-dude/shuriken-dude9.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken/shuriken1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/sprites/shuriken/shuriken2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/spritesheets/fox-sword.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/spritesheets/fox.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/spritesheets/no-shuriken-dude.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/spritesheets/shuriken-dude.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Enemies Files/spritesheets/shuriken.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Death/frame8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/Hurt/hurt.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/attack/attack8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/crouch-attack/frame1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/crouch-attack/frame2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/crouch-attack/frame3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/crouch-attack/frame4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/crouch-attack/frame5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/fall/fall1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/fall/fall2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/idle/idle1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/idle/idle2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/idle/idle3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/idle/idle4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump-attack/frame1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump-attack/frame2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump-attack/frame3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump-attack/frame4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump-attack/frame5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump/jump1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump/jump2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/jump/jump3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run2.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run3.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run4.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run5.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run6.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run7.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/Sprites/run/run8.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/attack.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/crouch-attack.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/crouch.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/death.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/fall.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/hurt.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/idle.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/jump-attack.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/jump.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Player Sprite/spritesheets/run.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Player/spritesheets/attack.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Player/spritesheets/fall.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Player/spritesheets/hurt.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Player/spritesheets/idle.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Player/spritesheets/jump.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Player/spritesheets/run.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation7.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation8.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/explosion-animation9.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/spritesheet/explosion-animation.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying7.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/alien-enemy-flying8.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/alien-enemy-idle.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/alien-enemy-walk.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/bipedal-unit.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit7.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/draw gun/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/draw gun/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/draw gun/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/draw gun/Layer-4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/Layer-4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/Layer-5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/Layer-6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/punch/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/punch/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/punch/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/punch/Layer-4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/shot/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/shot/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/shot/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/Layer-1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/Layer-2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/Layer-3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/Layer-4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/Layer-5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/Layer-6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/crouch.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/death.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/draw-gun.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/gun-walk.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/punch.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/shot.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/walk.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export1.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export10.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export3.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export4.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export5.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export6.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export7.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export8.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/mech-unit-export9.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/spritesheet/mech-unit.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/bullet.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-die.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-idle.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-jump.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-run.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-shoot.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/wall-impact-blast.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/spaceship-unit.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/thrust.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/ship-unit-with-thrusts.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PNG/tank-unit.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/tank-unit-preview.png`
+
+## environment (136)
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/background.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/graveyard.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/mountains.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/objects.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/bush-large.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/bush-small.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/statue.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/stone-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/stone-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/stone-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/stone-4.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/tree-1.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/tree-2.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/sliced-objects/tree-3.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/tileset-sliced.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Environment/tileset.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/environment/bg-graveyard.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/environment/bg-moon.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/environment/bg-mountains.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/environment/objects.png`
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/environment/tileset.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/church-preview-big.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/church-preview.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/environment-preview.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/background.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/middleground.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-b.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-corner.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-right-corner.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-shadow.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall-b.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wall.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground-wood-legs.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/ground.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-corner.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-roof.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/left-slope.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-corner.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-roof.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/right-slope.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/roof.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/shadow.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/slope.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-left.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-left.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror-right.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-mirror.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-right.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-left.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-left.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror-right.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-mirror.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall-right.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs-wall.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/stairs.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-left-wood.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-right-wood.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/top-wood.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall-b.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wall.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window-bars.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/window.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/sliced-tileset/wood-legs.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/layers/tileset.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/barrel.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/chuch.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/crate-stack.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/crate.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/house-a.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/house-b.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/house-c.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/sign.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/street-lamp.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/wagon.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props-sliced/well.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props/houses.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/environment/props/props.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/environment/background.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/environment/middleground.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/environment/tileset.png`
+- `assets/external/gothicvania/gothicvania_church/assets/atlas/atlas.png`
+- `assets/external/gothicvania/gothicvania_church/assets/environment/background.png`
+- `assets/external/gothicvania/gothicvania_church/assets/environment/columns.png`
+- `assets/external/gothicvania/gothicvania_church/assets/environment/tileset.png`
+- `assets/external/gothicvania/gothicvania_church/assets/images/credits-text.png`
+- `assets/external/gothicvania/gothicvania_church/assets/images/game-over.png`
+- `assets/external/gothicvania/gothicvania_church/assets/images/instructions.png`
+- `assets/external/gothicvania/gothicvania_church/assets/images/press-enter-text.png`
+- `assets/external/gothicvania/gothicvania_church/assets/images/title-screen.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PNG/clouds.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PNG/far-grounds.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PNG/sea.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PNG/sky.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PNG/tileset.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PREVIEWS/100x100x1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PREVIEWS/magic-cliffs-PREVIEWx1.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PREVIEWS/magic-cliffs-preview-detail.png`
+- `assets/external/magic-cliffs/Magic-Cliffs-Gamekit/Assets/Environment/PREVIEWS/magic-cliffs-preview-detailx1.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/World/clouds.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/World/far-grounds.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/World/sea.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/World/sky.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/World/tileset.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/back-structures.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/background.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/tileset.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/preview-alien-environment.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/another-world-PREVIEW.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/layered/another-world-tileset.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/layered/back-towers.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/layered/composed-bg.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/layered/sky.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/bg-wall-with-supports.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/bg-wall.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/floor.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/foreground.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/preview-bulkhead-walls-v2.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PNG/cyberpunk-corridor-PREVIEW.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PNG/layers/back.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PNG/layers/cyberpunk-corridor-foreground.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PNG/layers/cyberpunk-corridor.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/big-computer.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/cryo-pod.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/cyberpunk-props-preview.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/elevator-track.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/elevator.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/hanging-terminal.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/server-gabinetes.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/small-terminal.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/PNG/back.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/PNG/sci-fi-environment-tileset.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/PNG/sky.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/preview-sci-fi-environment-tileset.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-interior-platform/PNG/background.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-interior-platform/PNG/tile-set-sci-fi-interior-platform.png`
+- `assets/external/sideview-sci-fi/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-interior-platform/preview-sci-fi-interior-platform.png`
+
+## props (2)
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/atlas/atlas-props.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/atlas/atlas-props.png`
+
+## ui (4)
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/title-screen/credits-text.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/title-screen/instructions.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/title-screen/press-enter-text.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/PNG/title-screen/title-screen.png`
+
+## vfx (0)
+
+## uncategorized (5)
+- `assets/external/gothicvania-cemetery/gothicvania-cemetery-files/Assets/Phaser Demo/assets/atlas/atlas.png`
+- `assets/external/gothicvania-town/GothicVania-town-files/code/phaser-code/assets/atlas/atlas.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Enemies/Fox/fox.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Enemies/ShurikenDude/Shuriken/shuriken.png`
+- `assets/external/magiccliffs-godot/MagicCliffsGodot/Enemies/ShurikenDude/shuriken-dude.png`
+

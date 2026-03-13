@@ -15,6 +15,9 @@ signal hp_changed(current: int, max: int)
 @export var dash_speed: float = 520.0
 @export var dash_time: float = 0.16
 @export var dash_cooldown: float = 0.7
+@export var use_custom_character_art: bool = true
+@export var custom_character_texture: Texture2D = preload("res://assets/sprites/mc_main.png")
+@export var custom_character_scale: Vector2 = Vector2(0.09, 0.09)
 
 const FRAME_IDLE := Rect2(1169, 189, 82, 60)
 const FRAME_WALK_1 := Rect2(842, 257, 82, 60)
@@ -37,9 +40,21 @@ var walk_anim_t := 0.0
 @onready var attack_area: Area2D = $AttackArea
 @onready var attack_shape: CollisionShape2D = $AttackArea/CollisionShape2D
 @onready var body_visual: ColorRect = $ColorRect
+@onready var body_shadow: Sprite2D = $BodyShadow
 @onready var body_sprite: Sprite2D = $BodySprite
 @onready var sword_visual: ColorRect = $Sword
 @onready var slash_trail: ColorRect = $SlashTrail
+
+var use_atlas_frames := true
+
+func _apply_custom_character_art() -> void:
+	if not use_custom_character_art or custom_character_texture == null:
+		return
+	body_sprite.texture = custom_character_texture
+	body_sprite.region_enabled = false
+	body_sprite.scale = custom_character_scale
+	body_sprite.position = Vector2(0, -22)
+	body_shadow.visible = false
 
 func _ready() -> void:
 	hp = max_hp
@@ -47,7 +62,11 @@ func _ready() -> void:
 	body_visual.visible = false
 	sword_visual.visible = false
 	slash_trail.visible = false
-	body_sprite.region_rect = FRAME_IDLE
+	_apply_custom_character_art()
+	use_atlas_frames = body_sprite.region_enabled
+	if use_atlas_frames:
+		body_sprite.region_rect = FRAME_IDLE
+		body_shadow.region_rect = FRAME_IDLE
 	emit_signal("hp_changed", hp, max_hp)
 
 func _physics_process(delta: float) -> void:
@@ -101,11 +120,16 @@ func _physics_process(delta: float) -> void:
 	body_sprite.flip_h = facing < 0
 	move_and_slide()
 	_update_visual_state(delta)
+	body_shadow.flip_h = body_sprite.flip_h
+	if use_atlas_frames:
+		body_shadow.region_rect = body_sprite.region_rect
 
 	if global_position.y > 1200:
 		die()
 
 func _update_visual_state(delta: float) -> void:
+	if not use_atlas_frames:
+		return
 	if attack_active:
 		return
 	if not is_on_floor():
@@ -120,7 +144,8 @@ func _update_visual_state(delta: float) -> void:
 func start_attack() -> void:
 	attack_active = true
 	attack_shape.disabled = false
-	body_sprite.region_rect = FRAME_ATTACK_1
+	if use_atlas_frames:
+		body_sprite.region_rect = FRAME_ATTACK_1
 
 	sword_visual.visible = true
 	slash_trail.visible = true
@@ -131,7 +156,8 @@ func start_attack() -> void:
 	var tw := create_tween()
 	tw.tween_property(slash_trail, "modulate:a", 0.8, 0.05)
 	tw.parallel().tween_property(sword_visual, "rotation", 0.45 * facing, 0.09)
-	tw.parallel().tween_callback(func(): body_sprite.region_rect = FRAME_ATTACK_2)
+	if use_atlas_frames:
+		tw.parallel().tween_callback(func(): body_sprite.region_rect = FRAME_ATTACK_2)
 	tw.tween_property(slash_trail, "modulate:a", 0.0, 0.08)
 
 	for body in attack_area.get_overlapping_bodies():
